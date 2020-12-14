@@ -1,0 +1,15 @@
+[package]
+name = "riseria"
+version = "0.1.0"
+authors = ["Luqmanul Hakim <luqmanulhakim1720@gmail.com>"]
+edition = "2018"
+description = "A simulation game"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Logging is important!
+log = "0.4.11"
+simple_logger = "1.11.0"
+# Lets build a world first!
+legion = { version = "0.3.1", features = ["parallel", "serialize", "crossbeam-events", "codegen"] }
