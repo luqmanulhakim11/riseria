@@ -9,7 +9,8 @@ description = "A simulation game"
 
 [dependencies]
 # Logging is important!
-log = "0.4.11"
-simple_logger = "1.11.0"
+#log = "0.4.11"
+#simple_logger = "1.11.0"
 # Lets build a world first!
-legion = { version = "0.3.1", features = ["parallel", "serialize", "crossbeam-events", "codegen"] }
+# legion = { version = "0.3.1", features = ["parallel", "serialize", "crossbeam-events", "codegen"] }
+bevy = "0.4"
